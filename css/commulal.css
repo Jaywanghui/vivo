@@ -1,0 +1,13 @@
+#headerBox {
+  background: #333333; }
+  #headerBox #header {
+    height: 32px;
+    margin: 0 auto; }
+
+/* !nav */
+#navBox {
+  background: #f7f7f5; }
+  #navBox #nav {
+    height: 68px;
+    width: 1200px;
+    margin: 0 auto; }

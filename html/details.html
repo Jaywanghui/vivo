@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src = '../js/require.js' async = 'true' defer data-main = '../js/detailsmain'></script>
+</head>
+<body>
+        <!-- header -->
+        <embed src="header.html" type="" width="100%" height="100px">
+        <!-- crumbs -->
+        <div id = 'crumbsBox'>
+            <div id = 'crumbs'>
+                <a href="">商城首页</a>
+                <b>></b>
+                <a href="">智能手机</a>
+                <b>></b>
+                <span>Z5x</span>
+            </div>
+        </div>
+        <!-- prod-container-->
+        <div id = 'prod-containerBox'>
+            <div id = 'prod-container'>
+                <!-- <div id = 'big'></div> -->
+                <div id = 'prod-container-left'>
+                    <div id = 'fixe'>
+                            <div id = 'small'>
+                                <img id = 'img_z5' src="../images/details_Z5x.png" alt="">
+                                <img src="../images/details_Z5x_img2.png" alt="">
+                                <img src="../images/details_Z5x_img3.png" alt="">
+                                <img src="../images/details_Z5x_img4.png" alt="">
+                                
+                                <div id = 'mark'></div>
+                            </div>
+                            <div id = 'spec-item'>
+                                <img src="../images/details_Z5x_img1.png" alt="">
+                                <img src="../images/details_Z5x_img2.png" alt="">
+                                <img src="../images/details_Z5x_img3.png" alt="">
+                                <img src="../images/details_Z5x_img4.png" alt="">
+                                <!-- <img src="../images/details_Z5x_img1.png" alt=""> -->
+                            </div>
+                    </div>
+                   
+                    <div id = 'big'>
+                        <img id="img_big_z5" src="../images/details_big_Z5x.png" alt="">
+                        <!-- <img id="img_big_z5" src="../images/details_Z5x_img2.png" alt="">
+                        <img id="img_big_z5" src="../images/details_Z5x_img3.png" alt="">
+                        <img id="img_big_z5" src="../images/details_Z5x_img4.png" alt=""> -->
+                    </div>
+                    
+                   
+                </div>
+                <div id = 'prod-container-right'>
+                    <h1 id = 'skuName'>Z5x 6GB + 128GB 极光色</h1>
+                    <p>5000mAh大电池,骁龙710处理器,强劲闪充强续航,6.53英寸极点全面屏，超广角AI三摄,前置1600万AI美颜</p>
+                    <div id = 'prod-summary'>
+                        <div id = 'prod-summary-left'>
+                            <span id = 'now_price'>
+                                ￥ 1698
+                            </span>
+                        </div>
+                        <ul id = 'prod-summary-right'>
+                            <li><span id = 'label'>满减</span><i>满1600元减100元</i></li>
+                            <li><span id = 'label'>定制</span><i>免费的镭射镌刻服务</i></li>
+                            <li><span id = 'label'>积分</span><i>购买即送1698积分</i></li>
+                            <li><span id = 'label'>下单赠券</span><i>购机订单完成后即赠配件券</i></li>
+                        </ul>
+                    </div>
+                    <dl id = 'service-support'>
+                        <dt>商品支持：</dt>
+                        <dd><i></i><span>花呗分期</span></dd>
+                        <dd><i></i><span>以旧换新</span></dd>
+                    </dl>
+                    <div id = 'prod-params'>
+                        <dl>
+                            <dt>版本</dt>
+                            <dd>全网通版 6GB+64GB</dd>
+                            <dd>全网通版 6GB+128GB</dd>
+                            <dd>全网通版 8GB+128GB</dd>
+                            <dd>全网通版 4GB+64GB</dd>
+                        </dl>
+                        <dl>
+                            <dt>颜色</dt>
+                            <dd>极夜黑</dd>
+                            <dd>幻影黑</dd>
+                            <dd>极光色</dd>
+                            <dd>幻彩粉</dd>
+                        </dl>
+                    </div>
+                    <p id = 'p1'>选择套餐</p>
+                    <ul id="prod-service">
+                       
+                        <li>
+                            <h2>官方标配</h2>
+                        </li>
+                        <li>
+                            <h2>原装耳机套餐</h2>
+                            <p>￥1517<span>&ensp;省￥80</span></p>
+                        </li>
+                        <li>
+                            <h2>游戏按键吃鸡</h2>
+                            <p>￥1437<span>&ensp;省￥20</span></p>
+                        </li>
+                        <li>
+                            <h2>移动电源套餐</h2>
+                            <p>￥1547<span>&ensp;省￥50</span></p>
+                        </li>
+                    </ul>
+                    <dl id = 'spu-service'>
+                        <dt>手机服务(可选)</dt>
+                        <dd>
+                            <span>一年碎屏宝-99元</span>
+                            <i>￥99</i>
+                        </dd>
+                        <dd>
+                            <span>半年延保</span>
+                            <i>￥99</i>
+                        </dd>
+                        <dd>
+                            <span>一年延保</span>
+                            <i>￥109</i>
+                        </dd>
+                        <!-- <dd id = 'tip'>
+                            <input type="checkbox"><span>我已经阅读并同意《vivo服务条款》</span>
+                        </dd> -->
+                    </dl>
+                    <div id = 'countnum'>
+                        <p>数量</p>
+                        <span id = 'sum'>-</span>
+                        <span id = 'count'>1</span>
+                        <span id = 'sum'>+</span>
+                    </div>
+                    <div id = 'choiceTotal'>
+                        <div id = 'totalprice'>￥1498</div>
+                        <div id = 'tabel-cell'>已选： 全网通版6GB+64GB 极光色官方标配 1件</div>
+                    </div>
+                    <button id = 'shopping-cart'>加入购物车</button>
+                    <button id = 'shopping-purchase'>进入购物车</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- content -->
+    <div id = 'recommendBox'>
+        <div id = 'recommend'>
+            <div id = 'recommend-top'>
+                <span id = 'parts-l'>配件推荐</span>
+                <span id = 'parts-r'>同类推荐</span>
+            </div>
+            <div id = 'recommend-content'>
+                <div id = 'frame'>
+
+                    <ul id = 'frame-ul'>
+                        <li>
+                            <img src="../images/details_parts01.png" alt="">
+                            <p id = 'name'>Z5x星辰磨砂手机壳 星空蓝</p>
+                            <p id = 'price'>￥39</p> 
+                        </li>
+                        <li>
+                            <img src="../images/details_parts01.png" alt="">
+                            <p id = 'name'>Z5x星辰磨砂手机壳 星空蓝</p>
+                            <p id = 'price'>￥59</p> 
+                        </li>
+                        <li>
+                            <img src="../images/details_parts01.png" alt="">
+                            <p id = 'name'>Z5x星辰磨砂手机壳 星空蓝</p>
+                            <p id = 'price'>￥39</p> 
+                        </li>
+                        <li>
+                            <img src="../images/details_parts01.png" alt="">
+                            <p id = 'name'>Z5x星辰磨砂手机壳 星空蓝</p>
+                            <p id = 'price'>￥39</p> 
+                        </li>
+    
+                        <li>
+                                <img src="../images/details_parts01.png" alt="">
+                                <p id = 'name'>Z5x星辰磨砂手机壳 星空蓝</p>
+                                <p id = 'price'>￥199</p> 
+                        </li>
+                        <li>
+                                <img src="../images/details_parts01.png" alt="">
+                                <p id = 'name'>Z5x星辰磨砂手机壳 星空蓝</p>
+                                <p id = 'price'>￥39</p> 
+                        </li>
+                            <li>
+                                <img src="../images/details_parts01.png" alt="">
+                                <p id = 'name'>Z5x星辰磨砂手机壳 星空蓝</p>
+                                <p id = 'price'>￥39</p> 
+                            </li>
+                            <li>
+                                <img src="../images/details_parts01.png" alt="">
+                                <p id = 'name'>Z5x星辰磨砂手机壳 星空蓝</p>
+                                <p id = 'price'>￥999</p> 
+                            </li>                    
+                     </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- comment -->
+        <div id = 'commentBox'>
+            <ul id = 'comment'>
+                <li class="active">详细信息</li>
+                <li>包装及规格参数</li>
+                <li>评价</li>
+                <li>评测</li>
+                <li>售后服务</li>
+            </ul>
+        </div>
+        <!-- information -->
+        <div id = 'informationBox'>
+            <div id = 'information'>
+                <div id = 'div1' style = "display:block">
+                        <img src="../images/details_comment01.jpg" alt="">
+                        <img src="../images/details_comment02.jpg" alt="">
+                        <img src="../images/details_comment03.jpg" alt="">
+                        <img src="../images/details_comment04.jpg" alt="">
+                        <img class="bigtu" src="../images/details_comment05.jpg" alt="">
+                        <img class="bigtu" src="../images/details_comment06.jpg" alt="">
+                        <img class="bigtu" src="../images/details_comment07.jpg" alt="">
+                        <img class="bigtu" src="../images/details_comment08.jpg" alt="">
+                        <img class="bigtu" src="../images/details_comment09.jpg" alt="">
+                        <img class="bigtu" src="../images/details_comment10.jpg" alt="">
+                </div>
+                <div id = 'prod-main-box'>
+                    <section class="main-item" id = 'main-item1'>
+                        <p>功能特色</p>
+                        <h3>功能特色</h3>
+                        <h4>极点屏|骁龙710处理器|5000mAh大电池|后置三摄|9V/2A双引擎闪充</h4>
+                    </section>
+                    <section class = 'main-item' id = 'main-item2'>
+                        <p>包装清单</p>
+                        <h3>包装清单</h3>
+                        <h4>手机×1、充电头×1、数据线×1、保护壳×1、取卡针×1、快速入门指南×1、重要信息与保修卡×1（备注：最终以实物为准）</h4>
+                    </section>
+                    <section class = 'main-item' id = 'main-item3'>
+                        <p>内存与容量</p>
+                        <h3>运行内存</h3>
+                        <h4>6GB RAM（注：由于手机系统和预装的程序占据了部分运存空间，实际可用运存空间小于6GB）</h4>
+                        <h3>机身存储</h3>
+                        <h4>机身存储128GB ROM（最大支持256GB拓展内存，注：由于手机系统和预装的程序占据了部分存储空间，实际可用存储空间小于128GB）</h4>
+                    </section>
+                    <section class = 'main-item' id = 'main-item4'>
+                        <p>处理器</p>
+                        <h3>CPU型号</h3>
+                        <h4>高通骁龙710 </h4>
+                    </section>
+                    <section class = 'main-item' id = 'main-item5'>
+                        <p>电池信息</p>
+                        <h3>电池容量</h3>
+                        <h4>5000mAh(典型值)标配18W双引擎闪充</h4>
+                    </section>
+                    <section class = 'main-item' id = 'main-item6'>
+                        <p>屏幕</p>
+                        <h3>屏幕尺寸</h3>
+                        <h4>6.53英寸 FHD+（此为按照标准矩形测量的屏幕直角对角线的长度。<实际可视区域略小>）</h4>
+                        <h3>分辨率</h3>
+                        <h4>2340X1080 </h4>
+                    </section>
+                    <section class = 'main-item' id = 'main-item7'>
+                        <p>外观</p>
+                        <h3>机身尺寸</h3>
+                        <h4>162.39 X 77.33 X 8.85 mm</h4>
+                    </section>
+                    <section class = 'main-item' id = 'main-item8'>
+                        <p>操作系统</p>
+                        <h3>操作系统</h3>
+                        <h4>基于Android 9开发的Funtouch OS 9 </h4>
+                    </section>
+                    <section class = 'main-item' id = 'main-item9'>
+                        <p>网络</p>
+                        <h3>支持频段</h3>
+                        <h4>网络类型 双卡双待 Z5x 全网通</h4>
+                        <h4>2G GSM：850/900/1800/1900MHz ；</h4>
+                        <h4>3G TD-SCDMA：B34/B39；</h4>
+                        <h4>3G WCDMA：B1/B5/B8；</h4>
+                        <h4>4G TDD-LTE：B34/B38/B39/B40/B41；</h4>
+                        <h4>4G FDD-LTE：B1/B3/B4/B5/B8； </h4>
+                        <h4>移动卡与联通卡、电信卡可以任意搭配使用，支持两张移动+移动或者移动+联通、联通+联通的双4G；如果同时使用两张电信卡，副卡（非数据卡）必须开通VoLTE业务并开启VoLTE高清通话，同时需要运营商网络支持4G的VoLTE业务才能使用双电信卡</h4>                            
+                    </section>
+                    <section  class = 'main-item' id = 'marin-item10'></section>
+                </div>
+                <div id = 'prod-comment'>本人比较懒，什么都没有留下</div>
+                <div>html5网站开发 找常州玉凌软件,资深web开发工程师一对一服务,您的满意是我们的宗旨!常州玉凌软件常年提供html5网站开发,开发企业级Web网站及基于Web平台上的各类管理系统</div>
+                <div id = 'prod-afterbox'>
+                    <section id = 'prod-after'>
+                        <article id = 'iconfontb'>
+                                <b id = 'icon-1' class="iconfont">&#xe502;</b>
+                                <i id = 'icon-right'>
+                                        <h2>7天无理由退换货</h2>
+                                        <h3>购机自物流签收的7天内，您如果使用不满意，机器无人为损坏且赠品发票齐全，vivo官方商城支持无理由退换货，寄回运费自理。</h3>
+                                </i>
+                              
+                        </article>
+                        <article id = 'iconfontb'>
+                                <b id ='icon-2' class="iconfont">&#xe648;</b>
+                                <i id = 'icon-right'>
+                                    <h2>30天质量换货问题</h2>
+                                    <h3>购机自物流签收的30天内，如果产品出现非人为的质量故障问题，您可凭vivo售后服务中心开据的故障检测单，联系在线客服寄回换货，请选择顺丰快递到付。</h3>
+                                </i>
+                              
+                        </article>
+                        <article id = 'iconfontb'>
+                                <b id = 'icon-3' class="iconfont">&#xe6da;</b>
+                                <i id = 'icon-right'>
+                                    <h2>一年保修服务</h2>
+                                    <h3>自您手机激活日起的1年保修期内，如果出现非人为质量故障问题，vivo官方商城提供全国联保服务，您可在全国任意一家vivo售后服务中心进行免费保修。</h3>
+                                </i>
+                              
+                        </article>
+                        <article id = 'iconfontb'>
+                                <b id = 'icon-4' class="iconfont">&#xe581;</b>
+                                <i id = 'icon-right'>
+                                    <h2>vivo售后服务点查询</h2>
+                                    <h3>您可以直接进入手机设置—更多设置—售后服务，查询就近的售后服务点；手机无法开机的情况下，可以在下面页面，完成查询：点击查询>></h3>
+                                </i>
+                        </article>
+                    </section>    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- footer -->
+    <div id = 'footerBox'>
+        <div id = 'footer'>
+            <ul id = 'foo-top'>
+                <li><a href=""><i class="iconfont">&#xe622;</i><span>官方正品</span></a></li>
+                <li><a href=""><i class="iconfont">&#xe673;</i>顺丰急速送达</a></li>
+                <li><a href=""><i class="iconfont">&#xe646;</i>全国联保</a></li>
+                <li><a href=""><i class="iconfont">&#xe648;</i>镭雕定制</a></li>
+            </ul>
+            <div id = 'foo-center'>
+                <dl id = 'footer-dl'>
+                    <dt>热门链接</dt>
+                    <dd>X27</dd>
+                    <dd>iQOO</dd>
+                    <dd>Z3</dd>
+                    <dd>vivo摄影</dd>
+                    <dd>查找手机</dd>
+                    <dd>常见问题</dd>
+                </dl>
+                <dl id = 'footer-dl'>
+                    <dt>在线购买</dt>
+                    <dd>官方商城</dd>
+                    <dd>选购手机</dd>
+                    <dd>选购配件</dd>
+                    <dd>政企服务</dd>
+                    <dd>以旧换新</dd>
+                    <dd>服务保障</dd>
+                </dl>
+                <dl id = 'footer-dl'>
+                    <dt>服务支持</dt>
+                    <dd>服务首页</dd>
+                    <dd>服务网点查询</dd>
+                    <dd>真伪查询</dd>
+                    <dd>服务政策</dd>
+                    <dd>预约维修</dd>
+                    <dd>维修配件价格</dd>
+                </dl>
+                <dl id = 'footer-dl'>
+                    <dt>vivo社区</dt>
+                    <dd>社区首页</dd>
+                    <dd>摄影专区</dd>
+                    <dd>微博</dd>
+                    <dd>贴吧</dd>
+                    <dd>兴趣部落</dd>
+                </dl>
+                <dl id = 'footer-dl'>
+                    <dt>关于vivo</dt>
+                    <dd>vivo简介</dd>
+                    <dd>工作机会</dd>
+                    <dd>新闻资讯</dd>
+                    <dd>采购平台</dd>
+                    <dd>开放平台</dd>
+                </dl>
+                <div id = 'footer-center-right'>
+                    <a href=""><i class="iconfont weixin">&#xe671;</i><span>在线客服</span></a> 
+                    <span id = 'footer-phone'>400-678-9688</span>
+                    <p>24小时全国服务热线</p>
+                    <div id = 'footer-vivocare'>
+                        <span>关注vivo</span>
+                        <ul>
+                            <li class="iconfont">&#xe637;</li>
+                            <li class="iconfont">&#xe667;</li>
+                            <li class="iconfont">&#xe76e;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id = 'foo-bottom'>
+                <p>Copyright&ensp;2011-2019&ensp;广东步步高电子工业有限公司&ensp;版权所有&ensp;保留一切权利&ensp;|&ensp;隐私政策&ensp;|&ensp;法律声明&ensp;|&ensp;粤B2-20080267&ensp;|&ensp;粤ICP备05100288号&ensp;&ensp;<span class="iconfont">&#xe501;</span>&ensp;|&ensp;<i class="iconfont">&#xe60a;</i>&ensp;中国</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

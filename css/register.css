@@ -1,0 +1,98 @@
+body {
+  background: #f7f7f7; }
+
+#section {
+  width: 860px;
+  height: 670px;
+  margin: 80px auto;
+  background: #ffffff;
+  overflow: hidden; }
+  #section img {
+    display: block;
+    width: 160px;
+    height: 42px;
+    margin: 60px auto;
+    margin-bottom: 30px;
+    cursor: pointer; }
+  #section #title {
+    height: 35.2px;
+    text-align: center;
+    line-height: 35.2px;
+    font-size: 22px; }
+  #section #inner-box {
+    width: 348px;
+    margin: 68px auto;
+    position: relative; }
+    #section #inner-box input {
+      width: 347px;
+      height: 46px;
+      border: 1px solid #dedfe0;
+      font-size: 16px; }
+    #section #inner-box #phone_number {
+      width: 265px;
+      padding-left: 92px;
+      margin-bottom: 10px; }
+    #section #inner-box #span_phone {
+      position: absolute;
+      display: block;
+      width: 80px;
+      height: 48px;
+      cursor: pointer;
+      padding-left: 12px;
+      left: 0;
+      top: 0;
+      line-height: 46px; }
+    #section #inner-box #message1 {
+      display: block;
+      height: 30px;
+      color: #999;
+      font-size: 14px; }
+    #section #inner-box #message2 {
+      display: block;
+      height: 30px;
+      color: #999;
+      font-size: 14px; }
+    #section #inner-box #message3 {
+      display: block;
+      height: 30px;
+      font-size: 14px;
+      color: #999; }
+    #section #inner-box #pass {
+      margin-bottom: 10px;
+      padding-left: 10px;
+      margin-top: 10px; }
+    #section #inner-box #boxhe {
+      display: flex;
+      justify-content: space-around;
+      height: 20px; }
+      #section #inner-box #boxhe b {
+        display: none;
+        text-align: center;
+        line-height: 20px;
+        width: 50px;
+        height: 20px;
+        background: grey;
+        border-radius: 5px;
+        color: white;
+        margin-left: 32px; }
+    #section #inner-box #newpass {
+      margin-top: 10px;
+      padding-left: 10px; }
+    #section #inner-box #check {
+      margin-left: -2px;
+      margin-top: 22px;
+      width: 18px;
+      height: 8px; }
+    #section #inner-box #agreement {
+      color: #61a7ff;
+      cursor: pointer; }
+    #section #inner-box #register-btn {
+      width: 360px;
+      height: 48px;
+      background: #418aff;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 48px;
+      text-align: center;
+      margin-top: 25px;
+      cursor: pointer; }

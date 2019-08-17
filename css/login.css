@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666;
+  background: white; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+/* banner */
+#banner-panelBox {
+  background: #cfe3f5; }
+  #banner-panelBox #banner-panel {
+    height: 780px;
+    width: 1200px;
+    margin: 0 auto;
+    background: url(../images/login_background.png) no-repeat;
+    background-size: 100%;
+    position: relative; }
+    #banner-panelBox #banner-panel #logo1 {
+      position: absolute;
+      top: 0;
+      left: 243px; }
+    #banner-panelBox #banner-panel #inner_box {
+      width: 420px;
+      height: 617.3px;
+      position: absolute;
+      top: 74px;
+      right: 0;
+      background: #fdfeff;
+      padding: 30px 30px 20px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #banner-panelBox #banner-panel #inner_box #logo2 {
+        height: 42px;
+        width: 160px;
+        cursor: pointer; }
+      #banner-panelBox #banner-panel #inner_box #accounts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 563px;
+        margin-top: 18px; }
+        #banner-panelBox #banner-panel #inner_box #accounts #title {
+          font-size: 19px;
+          font-weight: 400;
+          color: #000000; }
+        #banner-panelBox #banner-panel #inner_box #accounts #note {
+          width: 360px;
+          height: 22.4px;
+          text-align: right;
+          color: #456fff;
+          cursor: pointer;
+          margin-top: 24px; }
+        #banner-panelBox #banner-panel #inner_box #accounts #input-area {
+          height: 111px;
+          margin-top: 14px;
+          position: relative; }
+          #banner-panelBox #banner-panel #inner_box #accounts #input-area input {
+            width: 360px;
+            height: 48px;
+            border: 1px solid #dedfe0;
+            margin-bottom: 15px; }
+          #banner-panelBox #banner-panel #inner_box #accounts #input-area #phone-box {
+            padding-left: 92px;
+            font-size: 16px; }
+          #banner-panelBox #banner-panel #inner_box #accounts #input-area #code-item {
+            position: absolute;
+            left: 0;
+            top: 0;
+            line-height: 48px;
+            margin-left: 10px;
+            font-size: 16px;
+            color: #000; }
+          #banner-panelBox #banner-panel #inner_box #accounts #input-area #pwd-box {
+            margin-bottom: 0;
+            padding-left: 12px;
+            padding-right: 50px;
+            font-size: 16px; }
+          #banner-panelBox #banner-panel #inner_box #accounts #input-area img {
+            width: 21px;
+            height: 18px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: 0 16px 13px 0; }
+        #banner-panelBox #banner-panel #inner_box #accounts #message {
+          width: 360px;
+          height: 30px;
+          margin-top: 10px;
+          display: none; }
+        #banner-panelBox #banner-panel #inner_box #accounts #check-box {
+          position: relative;
+          height: 22.4px;
+          margin-top: 20px;
+          width: 360px;
+          display: flex;
+          justify-content: space-between; }
+          #banner-panelBox #banner-panel #inner_box #accounts #check-box span {
+            color: #456fff;
+            cursor: pointer; }
+          #banner-panelBox #banner-panel #inner_box #accounts #check-box input {
+            position: absolute;
+            top: 3px;
+            right: 101px; }
+        #banner-panelBox #banner-panel #inner_box #accounts .login-btn {
+          display: block;
+          margin-top: 20px;
+          height: 48px;
+          border: 0;
+          color: white;
+          background: #4288ff;
+          width: 360px;
+          font-size: 17px;
+          line-height: 48px;
+          text-align: center;
+          cursor: pointer; }
+        #banner-panelBox #banner-panel #inner_box #accounts #register-btn {
+          display: block;
+          margin-top: 16px;
+          height: 46px;
+          border: 0;
+          background: #fdfeff;
+          width: 358px;
+          line-height: 48px;
+          text-align: center;
+          border: 1px solid #4288ff;
+          cursor: pointer; }
+          #banner-panelBox #banner-panel #inner_box #accounts #register-btn a {
+            display: inline-block;
+            width: 358px;
+            height: 46px;
+            font-size: 17px;
+            color: #4288ff; }
+        #banner-panelBox #banner-panel #inner_box #accounts #forget {
+          height: 22.4px;
+          margin-top: 20px;
+          cursor: pointer; }
+        #banner-panelBox #banner-panel #inner_box #accounts fieldset {
+          border: 0;
+          border-top: 1px solid #ccc;
+          width: 360px;
+          height: 66.7px;
+          margin-top: 37px; }
+          #banner-panelBox #banner-panel #inner_box #accounts fieldset legend {
+            margin: 0 auto;
+            width: 100px;
+            text-align: center; }
+          #banner-panelBox #banner-panel #inner_box #accounts fieldset #way {
+            margin: 0 auto;
+            width: 220px;
+            margin-top: 16px;
+            height: 26px;
+            display: flex;
+            justify-content: space-between; }
+            #banner-panelBox #banner-panel #inner_box #accounts fieldset #way img {
+              float: left; }
+
+/* footer */
+#footer_loginBox #footer_login {
+  width: 1200px;
+  height: 187.4px;
+  margin: 0 auto; }
+  #footer_loginBox #footer_login #service {
+    padding-top: 138px;
+    display: flex;
+    justify-content: center;
+    font-size: 11px; }
+    #footer_loginBox #footer_login #service img {
+      margin-right: 15px;
+      cursor: pointer; }
+    #footer_loginBox #footer_login #service span {
+      display: inline-block;
+      margin-right: 32px;
+      cursor: pointer; }
+  #footer_loginBox #footer_login #copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: #999;
+    margin-top: 15px;
+    margin-bottom: 42px; }

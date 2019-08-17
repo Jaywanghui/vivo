@@ -1,0 +1,86 @@
+/* header */
+
+#headerBox {
+  width: 100%;
+  background: #333333; }
+  #headerBox #header {
+    height: 32px;
+    width: 1254px;
+    margin: 0 auto;
+    background: #333333;
+    position: relative; }
+    #headerBox #header #header-nav {
+      width: 600px;
+      height: 32px;
+      float: left; }
+      #headerBox #header #header-nav li {
+        float: left; }
+        #headerBox #header #header-nav li a {
+          color: #cccccc;
+          padding-right: 42px;
+          height: 32px;
+          line-height: 32px;
+          font-size: 12px; }
+          #headerBox #header #header-nav li a:hover {
+            color: #848484; }
+    #headerBox #header #header-user {
+      width: 167px;
+      height: 32px;
+      float: right; }
+      #headerBox #header #header-user a {
+        display: inline-block;
+        height: 32px;
+        line-height: 32px; }
+      #headerBox #header #header-user #header-shop {
+        color: #cccccc;
+        margin-right: 40px; }
+        #headerBox #header #header-user #header-shop:hover {
+          color: #848484; }
+      #headerBox #header #header-user #header-login {
+        color: #cccccc;
+        margin-right: 13px; }
+        #headerBox #header #header-user #header-login:hover {
+          color: #848484; }
+      #headerBox #header #header-user #header-register {
+        color: #cccccc;
+        margin-left: 13px; }
+        #headerBox #header #header-user #header-register:hover {
+          color: #848484; }
+
+/* !nav */
+#navBox {
+  background: #f7f7f5;
+  height: 68px; }
+  #navBox #nav {
+    height: 68px;
+    width: 1200px;
+    margin: 0 auto; }
+    #navBox #nav a {
+      display: block;
+      height: 68px;
+      font-size: 16px;
+      color: #000000;
+      float: left;
+      line-height: 68px;
+      padding: 0 28px; }
+      #navBox #nav a:hover {
+        color: #415fff; }
+      #navBox #nav a img {
+        margin-top: 20px; }
+      #navBox #nav a:first-child {
+        margin-right: 125px;
+        padding: 0; }
+      #navBox #nav a:nth-child(2) {
+        padding-left: 0; }
+      #navBox #nav a:nth-child(9) {
+        color: #848484; }
+      #navBox #nav a:last-of-type {
+        padding-right: 0; }
+    #navBox #nav span {
+      display: block;
+      float: right;
+      text-align: center;
+      line-height: 68px;
+      font-size: 18px;
+      width: 68px;
+      height: 68px; }

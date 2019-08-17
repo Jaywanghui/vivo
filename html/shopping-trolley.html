@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/index.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/shopping-trolley.css">
+    <script src = '../js/require.js' async = 'true' defer data-main='../js/shopping-trolleymain'></script>
+</head>
+<body>
+    <!-- header -->
+    <!-- <div id = 'headerBox'>
+        <div id = 'header'>
+            <ul id = 'header-nav'>
+                <li><a href="">品牌</a></li>
+                <li><a href="">Funtouch&ensp;OS</a></li>
+                <li><a href="">体验店</a></li>
+                <li><a href="">政企业务</a></li>
+                <li><a href="">社区</a></li>
+            </ul>
+            <div id = 'header-user'>
+                <a id = 'header-shop' href="">购物车</a>
+                <a id = 'header-login' href="html/login.html">登录</a>
+                <i>|</i>
+                <a id = 'header-register' href="">注册</a>
+            </div>
+        </div>
+    </div>
+
+    <div id = 'navBox'>
+        <div id = 'nav'>
+            <a href=""><img src="../images/index-logo.png" alt=""></a>
+            <a href="">iQOO专区</a>
+            <a href="">NEX系列</a>
+            <a href="">X系列</a>
+            <a href="">S系列</a>
+            <a href="">Z系列</a>
+            <a href="">Y系列</a>
+            <a href="">U系列</a>
+            <a href="">商城</a>
+            <a href="">服务</a>
+            <span class="iconfont">&#xe60c;</span>
+        </div> -->
+        <embed src="header.html" type="" width="100%" height="100px">
+    </div>
+
+    <div id = 'shopBox'>
+        <div id = 'title'>
+            <span class="span-title">我的购物车</span>
+            <span class="span-right">继续购物<i class="iconfont">&#xe629;</i></span>
+        </div>
+        <div id = 'shoplist'>
+            <table class="tabel">
+                <tr>
+                    <th></th>
+                    <th>商品图片</th>
+                    <th>商品名称</th>
+                    <th>优惠</th>
+                    <th>数量</th>
+                    <th>价格(元)</th>
+                    <th>操作</th>
+                </tr>
+                <!-- <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="../images/iphone_04.png" alt=""></td>
+                    <td>IQOO Neo 6GB+128GB 电光紫</td>
+                    <td>无</td>
+                    <td>
+                        <span id = 'sum'>+</span>
+                        <span id = 'count'>1</span>
+                        <span id = 'minus'>-</span>
+                    </td>
+                    <td>￥1988.00</td>
+                    <td>删除</td>
+                </tr> -->
+            </table>
+        </div>
+        <!-- 结算 -->
+        <div id = 'accounts'>
+            <span class="check-all"><i><input type="checkbox"></i><b>全选</b></span>
+            <span class="deleteshop">删除选中的商品</span>
+            <span id = 'btn-clear'>清空购物车</span>
+            <p class="sum-area">
+                已选商品<b class="b">0</b>件,合计：
+                <span class="total">￥0.00</span>
+            </p>
+            <span id = 'btn-inner'>去结算</span>
+        </div>
+        <!-- 空白 -->
+        <div id = 'empty'></div>
+    </div>
+
+    <!-- footer -->
+    <embed src="../html/footer.html" type="" width="100%" height="620px">
+</body>
+</html>

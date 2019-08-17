@@ -1,0 +1,29 @@
+console.log("商品详情入口文件加载成功,请指示!");
+/* 
+    配置文件路径
+*/
+require.config({
+    paths:{
+        "jquery":"jquery-1.11.3",
+        "jquery-cookie":"jquery.cookie",
+        "parabola":"parabola",
+        "big":"bigs",
+    },
+    shim:{
+        "jquery-cookie":["jquery"],
+        "parabola":{
+            exports:"_"
+        } 
+     }
+})
+/* 引用 */
+require(["big"],function(big){
+    big.big();
+    // big.fix();
+    big.carousel();
+    big.commentFix();
+    big.fixphone();
+    big.options();
+    big.imghover();
+    big.addshop();
+})

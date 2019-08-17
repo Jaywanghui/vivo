@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>帐号注册</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <script src = '../js/require.js' async = 'true' defer data-main='../js/registermain'></script>
+</head>
+<body>
+    <div id = 'section'>
+        <img src="../images/login_logo_big.png" alt="">
+        <div id = 'title'>帐号注册</div>
+        <div id = 'inner-box'>
+            <input id = 'phone_number' title="请输入手机号" type="text" placeholder="请输入手机号">
+            <span id = 'span_phone'>+86</span>
+            <span id = 'message1'>请输入手机号</span>
+            <input id = 'pass' type="password" title="请输入密码" placeholder="请输入密码">
+            <span id = 'message2'>密码长度为6到16位之间</span>
+            <div id ='boxhe'>
+                    <b>弱</b>
+                    <b>中</b>
+                    <b>强</b>
+                </div>
+            <input id = 'newpass' type="password" title="请输入新密码" placeholder="请再次输入密码">
+            <span id = 'message3'></span>
+            <input id = 'check' type="checkbox">我已阅读并接受<span id = 'agreement'>《vivo服务协议》</span>
+            <div id = 'register-btn'>立即注册</div>
+        </div>
+    </div>
+</body>
+</html>
